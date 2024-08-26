@@ -47,5 +47,25 @@ A seguir, um novo exemplo de uso envolvendo um objeto `Administrador`:
 ```java
 Administrador admin = new Administrador("Carlos Silva", "Avenida Central, 123", "1234-5678", 101, 5000.0, 10.0, 800.0);
 System.out.println("Salário do Administrador: " + admin.calcularSalario());
+```
+
+## Compilação e Execução
+
+Para compilar e executar o projeto, siga os passos abaixo:
+
+1. **Compilar todas as classes:**
+   
+   ```bash
+   javac src/*.java
+   
+2. **Executar a classe principal:**
+
+   ```bash
+   java src.Main
+   ```
+   
+### Considerações Finais
+Este projeto é um exemplo prático de como aplicar herança em Java para construir um sistema de classes que representa diferentes categorias de pessoas e seus respectivos papéis em uma organização. Demonstra a importância dessas técnicas na criação de código que seja reutilizável, flexível e fácil de manter.
+   
 
 
